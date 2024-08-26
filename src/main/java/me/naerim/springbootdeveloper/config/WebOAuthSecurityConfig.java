@@ -3,6 +3,7 @@ package me.naerim.springbootdeveloper.config;
 import lombok.RequiredArgsConstructor;
 import me.naerim.springbootdeveloper.config.jwt.TokenProvider;
 import me.naerim.springbootdeveloper.config.oauth.OAuth2AuthorizationRequestBasedOnCookieRepository;
+import me.naerim.springbootdeveloper.config.oauth.OAuth2SuccessHandler;
 import me.naerim.springbootdeveloper.config.oauth.OAuth2UserCustomService;
 import me.naerim.springbootdeveloper.repository.RefreshTokenRepository;
 import me.naerim.springbootdeveloper.service.UserService;
