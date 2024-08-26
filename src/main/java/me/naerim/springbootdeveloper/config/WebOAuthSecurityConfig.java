@@ -35,9 +35,9 @@ public class WebOAuthSecurityConfig {
         return (web) -> web.ignoring()
                 .requestMatchers(toH2Console())
                 .requestMatchers(
-                        new AntPathRequestMatcher("/img/**"),
+                        new AntPathRequestMatcher("/static/img/**"),
                         new AntPathRequestMatcher("/css/**"),
-                        new AntPathRequestMatcher("/js/**")
+                        new AntPathRequestMatcher("/static/js/**")
                 );
     }
 
